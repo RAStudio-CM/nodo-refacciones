@@ -84,7 +84,11 @@ export default function Home() {
       <div className="service-index" id="servicios">
         {services.map(([number, title, copy]) => <article key={number} className="service-item"><span>{number}</span><h2>{title}</h2><p>{copy}</p><b>↗</b></article>)}
       </div>
-      <a className="scroll-prompt" href="#proceso">Conocé cómo trabajamos <span>↓</span></a>
+      <a className="scroll-prompt" href="#proceso">
+        <small>Deslizá o tocá</small>
+        <strong>Cómo trabajamos</strong>
+        <span>↓</span>
+      </a>
     </section>
 
     <section className="process scene reveal" id="proceso">
