@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ms-servicios-construcciones.vercel.app"),
+  metadataBase: new URL("https://ms-servicios-construcciones-ras-tudio.vercel.app"),
   title: "MS | Servicios y construcciones",
   description: "Mantenimientos, refacciones, reformas y construcciones en CABA y Gran Buenos Aires.",
   icons: {
