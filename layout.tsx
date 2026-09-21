@@ -2,25 +2,27 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nodo-refacciones.vercel.app"),
-  title: "NODO | Mantenimiento, reparaciones y proyectos",
-  description: "Un solo contacto. Todos los oficios. Mantenimiento, reparaciones, reformas y construcciones en CABA y Gran Buenos Aires.",
+  metadataBase: new URL("https://ms-servicios-construcciones.vercel.app"),
+  title: "MS | Servicios y construcciones",
+  description: "Mantenimientos, refacciones, reformas y construcciones en CABA y Gran Buenos Aires.",
+  icons: {
+    icon: "/favicon-ms.png",
+    shortcut: "/favicon-ms.png",
+  },
   openGraph: {
-    title: "NODO | Mantenimiento, reparaciones y reformas",
-    description: "Un solo contacto. Todos los oficios. Un espacio en orden.",
+    title: "MS | Servicios y construcciones",
+    description: "Mantenimientos, refacciones, reformas y construcciones en CABA y Gran Buenos Aires.",
     url: "/",
-    siteName: "NODO",
+    siteName: "MS",
     locale: "es_AR",
     type: "website",
+    images: [{ url: "/og-ms.png", width: 1200, height: 630, alt: "MS — Servicios y construcciones" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "NODO | Mantenimiento, reparaciones y reformas",
-    description: "Un solo contacto. Todos los oficios. Un espacio en orden.",
-  },
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    title: "MS | Servicios y construcciones",
+    description: "Mantenimientos, refacciones, reformas y construcciones en CABA y Gran Buenos Aires.",
+    images: ["/og-ms.png"],
   },
 };
 
