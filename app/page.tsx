@@ -33,7 +33,7 @@ const refacciones = [
   ["04", "Cocina lavadero", "/images/refaccion-interior-antes-despues.jpg"],
 ];
 
-const whatsapp = "https://wa.me/5491135013636?text=Hola%20MS%2C%20quiero%20consultar%20por%20una%20visita.";
+const whatsapp = "https://wa.me/541165963636?text=Hola%20MS%2C%20quiero%20consultar%20por%20una%20visita.";
 const email = "ms.serviciosyconstrucciones@gmail.com";
 
 function Logo({ cover = false }: { cover?: boolean }) {
